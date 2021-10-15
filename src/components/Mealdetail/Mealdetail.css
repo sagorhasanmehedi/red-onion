@@ -1,0 +1,61 @@
+.meal-img img {
+  width: 100%;
+}
+.meal-img {
+  width: 35%;
+}
+.price {
+  display: flex;
+}
+.plusminusbutton {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.detail-heading h1 {
+  font-size: 73px;
+  margin-bottom: 45px;
+}
+.detail-detail h6 {
+  margin-bottom: 13px;
+  font-size: 20px;
+}
+.price h1 {
+  font-size: 62px;
+}
+.card-button {
+  padding: 16px 43px;
+  border: none;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  margin-top: 20px;
+}
+.detail-icon {
+  margin-right: 12px;
+}
+.parent-contain {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  .parent-contain {
+    flex-direction: column;
+    margin: 20px 20px;
+  }
+  .meal-img {
+    width: 100%;
+  }
+  .meal-detail {
+    padding: 20px;
+  }
+  .mealname-button2 {
+    margin: 0 10px;
+  }
+}

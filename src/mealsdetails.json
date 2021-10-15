@@ -1,0 +1,160 @@
+
+
+[
+  
+    {
+      "img": "https://i.ibb.co/sP3Wn1C/breakfast2.png",
+      "name": "Bagel And Cream Cheese",
+      "des": "cream and cheese with tomato",
+      "price": 9.99,
+      "id": 1,
+      "category":"breakfast"
+    },
+    {
+      "img": "https://i.ibb.co/DpCKFGd/breakfast3.png",
+      "name": "Breakfast Sandwish",
+      "des": "This is light break fast",
+      "price": 9.99,
+      "id": 2,
+      "category":"breakfast"
+    },
+    {
+      "img": "https://i.ibb.co/t3jhxyG/breakfast4.png",
+      "name": "Baked Chiken",
+      "des": "Cheese and chiken with mash potato",
+      "price": 10.99,
+      "id": 3,
+      "category":"breakfast"
+    },
+    {
+      "img": "https://i.ibb.co/JsGw1Tq/breakfast5.png",
+      "name": "Eggs Benedict",
+      "des": "How we dream about our future",
+      "price": 8.99,
+      "id": 4,
+      "category":"breakfast"
+    },
+    {
+      "img": "https://i.ibb.co/Ypy3G7w/breakfast1.png",
+      "name": "Toast Croissant Fried egg",
+      "des": "How we dream about our future",
+      "price": 19.99,
+      "id": 5,
+      "category":"breakfast"
+    },
+    {
+      "img": "https://i.ibb.co/1bFgh81/breakfast6.png",
+      "name": "Full Breakfast Fried Toast",
+      "des": "How we dream about our future",
+      "price": 3.99,
+      "id": 6,
+      "category":"breakfast"
+    },
+    
+      
+
+    
+        {
+          "img": "https://i.ibb.co/vjqQdXM/lunch2.png",
+          "name": "Healthy Meal Plan",
+          "des": "How we dream about our future",
+          "price": 23.99,
+          "id": 7,
+          "category":"lunch"
+        },
+        {
+          "img": "https://i.ibb.co/7VWGyZX/lunch3.png",
+          "name": "Fried Chiken Bento",
+          "des": "How we dream about our future",
+          "price": 9.99,
+          "id": 8,
+          "category":"lunch"
+        },
+        {
+          "img": "https://i.ibb.co/NWs68XB/lunch4.png",
+          "name": "Tarragon-Rubbed-Salmon",
+          "des": "How we dream about our future",
+          "price": 9.99,
+          "id": 9,
+          "category":"lunch"
+        },
+        {
+          "img": "https://i.ibb.co/QJfsrfX/lunch5.png",
+          "name": "Indian Lunch",
+          "des": "this is light break fast",
+          "price": 9.99,
+          "id": 10,
+          "category":"lunch"
+        },
+        {
+          "img": "https://i.ibb.co/8m5g6bN/lunch6.png",
+          "name": "Honey-Soy-Glazed Salmon With Peppers",
+          "des": "How we dream about our future",
+          "price": 7.99,
+          "id": 11,
+          "category":"lunch"
+        },
+        {
+          "img": "https://i.ibb.co/KbKVrS3/lunch1.png",
+          "name": "Beef Steak",
+          "des": "How we dream about our future",
+          "price": 15.99,
+          "id": 12,
+          "category":"lunch"
+        },
+    
+
+     
+     
+        {
+          "img": " https://i.ibb.co/zmsv9wC/dinner1.png",
+          "name": "Salmon With Grapefruit and Lentil Salad",
+          "des": "How we dream about our future",
+          "price": 9.99,
+          "id": 13,
+          "category":"dinner"
+        },
+        {
+          "img": "https://i.ibb.co/SmGz17M/dinner2.png",
+          "name": "Lemony Salmon Piccata",
+          "des": "How we dream about our future",
+          "price": 10.99,
+          "id": 14,
+          "category":"dinner"
+        },
+        {
+          "img": "https://i.ibb.co/ky5JfGD/dinner3.png",
+          "name": "Pork Tenderloin With Quinoa Pilaf",
+          "des": "How we dream about our future",
+          "price": 12.99,
+          "id": 15,
+          "category":"dinner"
+        },
+        {
+          "img": "https://i.ibb.co/MRbNBGD/dinner4.png",
+          "name": "French Fries With Cheese",
+          "des": "How we dream about our future",
+          "price": 8.99,
+          "id": 16,
+          "category":"dinner"
+        },
+        {
+          "img": "https://i.ibb.co/37gSLc6/dinner5.png",
+          "name": "Garlic Butter Baked Salmon",
+          "des": "How we dream about our future",
+          "price": 6.99,
+          "id": 17,
+          "category":"dinner"
+        },
+        {
+          "img": "https://i.ibb.co/VHSCXDp/dinner6.png",
+          "name": "Baked Chiken",
+          "des": "How we dream about our future",
+          "price": 6.99,
+          "id": 18,
+          "category":"dinner"
+        }
+      
+
+]
+

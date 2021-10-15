@@ -1,0 +1,31 @@
+.not-found-page {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.not-found-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 41%;
+}
+.not-found-button button {
+  border: none;
+  padding: 14px 55px;
+  background-color: tomato;
+  color: white;
+  font-size: 19px;
+  border-radius: 4px;
+}
+.not-found-button button:hover {
+  background-color: orangered;
+}
+
+@media only screen and (max-width: 600px) {
+  .not-found-page {
+    background-size: cover;
+  }
+  .not-found-button button {
+    margin-top: 100%;
+  }
+}

@@ -1,0 +1,37 @@
+.banner-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-heading {
+  margin-bottom: 50px;
+  font-size: 65px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.input-parent {
+  text-align: center;
+}
+.banner-input {
+  background-color: white;
+  padding: 13px;
+  padding-left: 25px;
+  width: 400px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .cover-heading {
+  }
+  .cover-heading {
+    padding: 0 20px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .banner-input {
+    width: 300px;
+  }
+}

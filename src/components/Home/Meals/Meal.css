@@ -1,0 +1,48 @@
+.meal-name {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.all-meal-parent {
+  margin: 0 100px;
+}
+
+.mealname-button:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.mealname-button {
+  border: none;
+  background: none;
+  margin: 0 40px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.chackout-button {
+  text-align: center;
+}
+.chackout-button button {
+  border: none;
+  padding: 11px 70px;
+  background-color: lightgrey;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.chackout-button button:hover {
+  background-color: rgb(177, 173, 173);
+}
+
+@media only screen and (max-width: 600px) {
+  .each-meal-name {
+    margin: 0 20px;
+  }
+  .all-meal-parent {
+    margin: 0;
+  }
+}

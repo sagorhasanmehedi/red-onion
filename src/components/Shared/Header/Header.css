@@ -1,0 +1,44 @@
+.navbar-logo {
+  width: 153px;
+  height: 43px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 70px;
+}
+.nav-signupbutton {
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 27px;
+  padding: 9px 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-login {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-right: 45px;
+  font-weight: 500;
+}
+.fas {
+  margin-right: 45px;
+}
+.user-uid {
+  margin-right: 70px;
+  color: rgb(204, 201, 201);
+}
+@media only screen and (max-width: 600px) {
+  .navbar-container {
+    padding: 10px;
+  }
+  .fas {
+    display: none;
+  }
+  .nav-login {
+    display: none;
+  }
+}

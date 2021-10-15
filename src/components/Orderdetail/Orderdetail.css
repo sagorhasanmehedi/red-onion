@@ -1,0 +1,143 @@
+.details-parent {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+.delivery-details hr {
+  width: 500px;
+  border: 1px solid rgb(12, 0, 0);
+  margin-top: 17px;
+  margin-bottom: 35px;
+}
+.order-input {
+  background-color: #e9e9e9;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  outline: none;
+}
+.order-input-highlight {
+  background-color: #e9e9e9;
+
+  margin-bottom: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  outline: none;
+}
+.order-input-highlight::placeholder {
+  color: rgb(7, 0, 0);
+  font-weight: bold;
+}
+.order-input-instrustor {
+  background-color: #e9e9e9;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  outline: none;
+  padding-bottom: 60px;
+  padding-top: 7px;
+}
+.order-detailparent {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+.order-input-button {
+  background-color: red;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  outline: none;
+  color: white;
+  text-align: center;
+}
+.order-input-button:hover {
+  background-color: orangered;
+}
+.delivery-door {
+  color: black;
+}
+.meal-details-cart {
+  margin-top: 50px;
+  padding: 10px 30px;
+  width: 300px;
+  background-color: #e9e9e9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-meal-img img {
+  width: 95px;
+}
+.meal-details-cart p {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.name-price {
+  margin-left: 20px;
+}
+.meal-details-cart h5 {
+  color: red;
+  font-weight: bold;
+}
+.cart-text span {
+  font-weight: 700;
+}
+
+.meal-details-cart small {
+  color: gray;
+  font-size: 12px;
+}
+.cart-total {
+  font-family: "Open Sans", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 30px 20px 8px;
+}
+.cart-total h6 {
+  font-size: 17px;
+}
+.cart-total h5 {
+  font-weight: bold;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .details-parent {
+    flex-direction: column;
+    margin-top: 90px;
+  }
+  .delivery-details hr {
+    width: 300px;
+  }
+
+  .delivery-details {
+    margin: auto;
+  }
+  .delivery-details hr {
+    margin-bottom: 20px;
+  }
+  .cart-parent {
+    margin: auto;
+  }
+  .cart-text {
+    margin-top: 50px;
+  }
+  .meal-details-cart {
+    margin-top: 30px;
+  }
+}
