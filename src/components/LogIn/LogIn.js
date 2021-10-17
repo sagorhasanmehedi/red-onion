@@ -3,8 +3,9 @@ import { Link, useHistory, useLocation } from "react-router-dom";
 import "./LogIn.css";
 import img from "../../images/logo2.png";
 import Header from "../Shared/Header/Header";
-import Footer from "../Shared/Footer/Footer";
-import UseFirebase from "../../Hook/UseFirebase";
+import UseAuth from "../../Hook/UseAuth";
+import { FormControl, InputGroup } from "react-bootstrap";
+import backgroundimg from "../../images/editebackground.jpg";
 
 const Login = () => {
   const {
@@ -14,10 +15,23 @@ const Login = () => {
     setuserpassword,
     signinwithpassword,
     setisLoding,
-  } = UseFirebase();
+  } = UseAuth().firebase_methods;
+
   const history = useHistory();
   const location = useLocation();
   const redirect_URL = location.state?.from || "/";
+
+  //  redirect login for email password
+  const loginredirect = () => {
+    signinwithpassword()
+      .then((result) => {
+        console.log("login redirect");
+        history.push(redirect_URL);
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
 
   const redirectlogin_Google = () => {
     googlesignin().then((result) => {
@@ -28,13 +42,9 @@ const Login = () => {
     });
   };
 
-  const history_facebook = useHistory();
-  const location_facebook = useLocation();
-  const redirect_URL_facebook = location_facebook.state?.from || "/";
-
   const redirectlogin_Facebook = () => {
     facebooklogin().then((result) => {
-      history_facebook.push(redirect_URL_facebook);
+      history.push(redirect_URL);
       console.log("from facebook");
       // setuser(result.user);
     });
@@ -51,7 +61,10 @@ const Login = () => {
   };
 
   return (
-    <>
+    <div
+      style={{ backgroundImage: `url(${backgroundimg})` }}
+      className="signup_parent"
+    >
       <Header />
       <div className="login-page">
         <div className="login-form">
@@ -74,7 +87,7 @@ const Login = () => {
               placeholder="Password"
             />
 
-            <input onClick={signinwithpassword} type="submit" value="Sign in" />
+            <input onClick={loginredirect} type="submit" value="Sign in" />
             <div className="google-facebookbutton">
               <button onClick={redirectlogin_Google} className="button-color1">
                 Google
@@ -92,7 +105,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

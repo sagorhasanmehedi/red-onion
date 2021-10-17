@@ -16,6 +16,9 @@ const UseFirebase = () => {
   const [useremail, setuseremail] = useState("");
   const [userpassword, setuserpassword] = useState("");
   const [user, setuser] = useState({});
+
+  // console.log(user);
+
   const [isLoding, setisLoding] = useState(true);
   const auth = getAuth();
 
@@ -33,18 +36,13 @@ const UseFirebase = () => {
 
   // create useraccount with password
   const createacount = () => {
-    createUserWithEmailAndPassword(auth, useremail, userpassword)
-      .then((result) => {})
-      .catch((error) => {
-        console.log(error.message);
-      });
+    return createUserWithEmailAndPassword(auth, useremail, userpassword);
   };
 
   // sign in with email and password
   const signinwithpassword = () => {
-    signInWithEmailAndPassword(auth, useremail, userpassword).then((result) => {
-      console.log(result.user);
-    });
+    console.log("from sign in with emailpassword");
+    return signInWithEmailAndPassword(auth, useremail, userpassword);
   };
 
   //   on user state change

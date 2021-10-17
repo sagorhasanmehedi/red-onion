@@ -45,4 +45,7 @@
   .all-meal-parent {
     margin: 0;
   }
+  .mealname-button {
+    margin: 0 20px;
+  }
 }

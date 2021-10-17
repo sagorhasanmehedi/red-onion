@@ -7,14 +7,15 @@
 .price {
   display: flex;
 }
-.plusminusbutton {
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-}
 
+.detail-detail {
+  width: 580px;
+}
+.parent-contain {
+  font-family: "Poppins", sans-serif;
+}
 .detail-heading h1 {
-  font-size: 73px;
+  font-size: 68px;
   margin-bottom: 45px;
 }
 .detail-detail h6 {
@@ -22,7 +23,7 @@
   font-size: 20px;
 }
 .price h1 {
-  font-size: 62px;
+  font-size: 48px;
 }
 .card-button {
   padding: 16px 43px;
@@ -31,6 +32,8 @@
   background-color: red;
   color: white;
   margin-top: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 .detail-icon {
   margin-right: 12px;
@@ -40,8 +43,39 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 83px;
   margin-top: 120px;
+}
+.button_parent {
+  display: flex;
+  border-radius: 25px;
+  width: 148px;
+  justify-content: center;
+  border: 1px solid lightgray;
+  align-items: center;
+  height: 59px;
+}
+.button_parent button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-size: 27px;
+}
+.button_parent h3 {
+  margin: 0 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.plus {
+  color: red;
+}
+.button_parent:hover {
+  border: 1px solid gray;
+}
+.price_button {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,7 +89,7 @@
   .meal-detail {
     padding: 20px;
   }
-  .mealname-button2 {
-    margin: 0 10px;
+  .detail-detail {
+    width: 100%;
   }
 }

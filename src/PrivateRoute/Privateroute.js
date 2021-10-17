@@ -2,14 +2,10 @@ import React from "react";
 import { Spinner } from "react-bootstrap";
 import { Redirect, Route } from "react-router";
 import UseAuth from "../Hook/UseAuth";
-import UseFirebase from "../Hook/UseFirebase";
 
 const Privateroute = ({ children, ...rest }) => {
-  const { isLoding, user } = UseFirebase();
+  const { isLoding, user } = UseAuth().firebase_methods;
 
-  // const { user } = UseAuth();
-  // console.log(user);
-  // console.log(isLoding);
   if (isLoding) {
     return (
       <div style={{ textAlign: "center", marginTop: "50px" }}>
@@ -22,12 +18,12 @@ const Privateroute = ({ children, ...rest }) => {
     <Route
       {...rest}
       render={({ location }) =>
-        user.displayName ? (
+        !user.email ? (
           children
         ) : (
           <Redirect
             to={{
-              pathname: "/login",
+              pathname: "/signup",
               state: { from: location },
             }}
           />

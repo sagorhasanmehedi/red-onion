@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router";
+import UseAuth from "../../../Hook/UseAuth";
 import Usedata from "../../../Hook/Usedata";
 import Breakfast from "../Breakfast.js/Breakfast";
 import "./Meal.css";
 
 const Meals = () => {
-  const { data } = Usedata();
+  const data = UseAuth().githubapi;
+
   const [mealname, setmealname] = useState("breakfast");
 
   // for breakfast
@@ -23,6 +26,11 @@ const Meals = () => {
   };
 
   const breakfast = data.filter((meal) => meal.category === mealname);
+
+  const history = useHistory();
+  const golivelocation = () => {
+    history.push("/livelocation");
+  };
 
   return (
     <div className="all-meal-parent">
@@ -43,7 +51,7 @@ const Meals = () => {
         ))}
       </div>
       <div className="chackout-button">
-        <button>Checkout Your Food</button>
+        <button onClick={golivelocation}>Checkout Your Food</button>
       </div>
     </div>
   );

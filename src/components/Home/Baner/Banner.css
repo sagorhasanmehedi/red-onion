@@ -10,17 +10,38 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
-.input-parent {
+/* .input-parent {
   text-align: center;
-}
-.banner-input {
+} */
+.input_parent {
   background-color: white;
-  padding: 13px;
-  padding-left: 25px;
-  width: 400px;
+  width: 600px;
   border: none;
   border-radius: 25px;
   outline: none;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.input_parent button {
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 25px;
+  height: 100%;
+  padding: 15px 52px;
+  transition: background-color 0.3s ease;
+}
+.input_parent button:hover {
+  background: rgb(175, 1, 1);
+}
+.input_text h6 {
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 32px;
+  color: rgb(192, 192, 192);
+  font-size: 18px;
+  font-weight: normal;
 }
 
 @media only screen and (max-width: 600px) {
@@ -33,5 +54,8 @@
   }
   .banner-input {
     width: 300px;
+  }
+  .input_parent {
+    width: 90%;
   }
 }

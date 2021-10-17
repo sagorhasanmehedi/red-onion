@@ -8,7 +8,8 @@
       "des": "cream and cheese with tomato",
       "price": 9.99,
       "id": 1,
-      "category":"breakfast"
+      "category":"breakfast",
+      "preparetion":"Creamy Tomato Sauce with Cream Cheese is a swoon-worthy sauce that is perfect for pasta or zucchini noodles! (I adore it on this Zucchini Ravioli!) Looking for a new topping for chicken? This is one you are going to love. It comes together in less than ten minutes, making this rich and creamy sauce perfect for a weeknight meal."
     },
     {
       "img": "https://i.ibb.co/DpCKFGd/breakfast3.png",
@@ -16,7 +17,8 @@
       "des": "This is light break fast",
       "price": 9.99,
       "id": 2,
-      "category":"breakfast"
+      "category":"breakfast",
+      "preparetion":"A breakfast sandwich is any sandwich filled with foods associated with the breakfast meal. Breakfast sandwiches are served at fast food restaurants and delicatessens or bought as fast, ready to heat and eat sandwiches from a store. Breakfast sandwiches are"
     },
     {
       "img": "https://i.ibb.co/t3jhxyG/breakfast4.png",
@@ -24,7 +26,8 @@
       "des": "Cheese and chiken with mash potato",
       "price": 10.99,
       "id": 3,
-      "category":"breakfast"
+      "category":"breakfast",
+      "preparetion":"This recipe starts with chicken wings, which are tossed in a little vegetable oil. The next step is to thoroughly coat the wings in spice rub. The wings go onto a rack, then are baked at high heat until crispy and golden brown. Add a sprinkling of parsley, and you’ll be ready to eat!"
     },
     {
       "img": "https://i.ibb.co/JsGw1Tq/breakfast5.png",
@@ -32,7 +35,8 @@
       "des": "How we dream about our future",
       "price": 8.99,
       "id": 4,
-      "category":"breakfast"
+      "category":"breakfast",
+      "preparetion":"Hot buttered English muffins, Canadian-style bacon, and poached eggs are topped with a heavenly drizzle of hollandaise sauce. Wonderful for Easter, Mother's Day, or anytime you want to treat yourself to the best brunch in the world! Serve with roasted potatoes for mopping up the extra egg yolk and hollandaise. If you prefer, you can substitute ham for the Canadian bacon in this recipe."
     },
     {
       "img": "https://i.ibb.co/Ypy3G7w/breakfast1.png",
@@ -40,7 +44,8 @@
       "des": "How we dream about our future",
       "price": 19.99,
       "id": 5,
-      "category":"breakfast"
+      "category":"breakfast",
+      "preparetion":"Take your breakfast sandwich up a notch by using our Croissants as the base! Nothing makes a sandwich feel fancier, or taste better than a croissant sandwich. The rich, buttery pastry complements breakfast food perfectly."
     },
     {
       "img": "https://i.ibb.co/1bFgh81/breakfast6.png",
@@ -48,7 +53,8 @@
       "des": "How we dream about our future",
       "price": 3.99,
       "id": 6,
-      "category":"breakfast"
+      "category":"breakfast",
+      "preparetion":"Cook the sausages first. Add the sausages to the hot grill plate/the coolest part if there is one and allow to cook slowly for about 15-20 minutes, turning occasionally, until golden. After the first 10 minutes, increase the heat to medium before beginning to cook the other ingredients. If you are struggling for space, completely cook the sausages and keep hot on a plate in the oven."
     },
     
       
@@ -60,7 +66,8 @@
           "des": "How we dream about our future",
           "price": 23.99,
           "id": 7,
-          "category":"lunch"
+          "category":"lunch",
+          "preparetion":"This week's meal plan was designed for a person who needs about 2,100 to 2,200 calories per day and doesn't have any dietary restrictions. Your daily calorie goal may vary. Learn what it is below, then make tweaks to the plan to fit your specific needs."
         },
         {
           "img": "https://i.ibb.co/7VWGyZX/lunch3.png",
@@ -68,7 +75,8 @@
           "des": "How we dream about our future",
           "price": 9.99,
           "id": 8,
-          "category":"lunch"
+          "category":"lunch",
+          "preparetion":"Heat sesame oil in a small sauté pan over medium-high heat; add garlic and bok choy and cook until just wilted, about 3 minutes. Stir in some sesame seeds and soy sauce; transfer to serving plate.Transfer rice to serving plate. Serve topped with chicken bites and teriyaki sauce with"
         },
         {
           "img": "https://i.ibb.co/NWs68XB/lunch4.png",
@@ -76,7 +84,8 @@
           "des": "How we dream about our future",
           "price": 9.99,
           "id": 9,
-          "category":"lunch"
+          "category":"lunch",
+          "preparetion":"Meanwhile, in cup, place chopped red onion; cover with cold water and let sit 10 minutes. (This will take some of the sharpness out of the raw onion.) In medium bowl, stir together remaining salsa ingredients: chopped nectarines, chopped red pepper, finely chopped jalapeño, lime juice, chopped cilantro, and 1/4 teaspoon salt; set aside."
         },
         {
           "img": "https://i.ibb.co/QJfsrfX/lunch5.png",
@@ -84,7 +93,8 @@
           "des": "this is light break fast",
           "price": 9.99,
           "id": 10,
-          "category":"lunch"
+          "category":"lunch",
+          "preparetion":"matar paneer recipe | matar paneer ki sabji | restaurant style mutter paneer with detailed photo and video recipe. a creamy and rich north indian curry recipe prepared from paneer cubes and green peas. it is an ideal gravy based curry recipe to be served with rice, roti, chapati or any indian flat breads. it is very easy and simple sabji to make with basic ingredients easily available in most of the indian kitchens."
         },
         {
           "img": "https://i.ibb.co/8m5g6bN/lunch6.png",
@@ -92,7 +102,8 @@
           "des": "How we dream about our future",
           "price": 7.99,
           "id": 11,
-          "category":"lunch"
+          "category":"lunch",
+          "preparetion":"Two words: honey salmon! Sure, it takes a tiny bit of prep work, but once you marinate your salmon, you won’t be able to go back. A simple mix of honey, soy sauce, garlic, and ginger coats and flavors your fish for 30 minutes before you throw it on the pan until the outside is perfectly crispy. Once that’s done, you heat up and reduce some extra marinade to make a thick, to-die-for glaze to pour over your filet. Serve with your favorite veggies or rice and enjoy!"
         },
         {
           "img": "https://i.ibb.co/KbKVrS3/lunch1.png",
@@ -100,7 +111,8 @@
           "des": "How we dream about our future",
           "price": 15.99,
           "id": 12,
-          "category":"lunch"
+          "category":"lunch",
+          "preparetion":"A beefsteak, often called just steak, is a flat cut of beef with parallel faces, usually cut perpendicular to the muscle fibers. In common restaurant service a single serving has a raw mass ranging from 120 to 600 grams (4 to 21 oz). Beef steaks are usually grilled, pan-fried, or broiled. The more tender cuts from the loin and rib are cooked quickly, using dry heat, and served whole. Less tender cuts from the chuck or round are cooked with moist heat or are mechanically tenderized (cf. cube steak)."
         },
     
 
@@ -112,7 +124,8 @@
           "des": "How we dream about our future",
           "price": 9.99,
           "id": 13,
-          "category":"dinner"
+          "category":"dinner",
+          "preparetion":"Heat 1 tablespoon oil in a large nonstick skillet on medium. Cut salmon into 4 pieces and season with 1/4 teaspoon each salt and pepper. Cook until golden brown, about 7 minutes. Turn salmon over and continue cooking until just opaque throughout, about 2 minutes more."
         },
         {
           "img": "https://i.ibb.co/SmGz17M/dinner2.png",
@@ -120,7 +133,8 @@
           "des": "How we dream about our future",
           "price": 10.99,
           "id": 14,
-          "category":"dinner"
+          "category":"dinner",
+          "preparetion":"Originally from Italy, Piccata is traditionally made with Veal. This may not be ‘the real deal’ or ‘the most authentic’ Piccata recipe due to being cooked with salmon, however, the unmistakeable Piccata flavours in this Salmon version are all right there in the skillet! After all, the flavour is all that matters when sitting down to enjoy a plate full of food. Yes?"
         },
         {
           "img": "https://i.ibb.co/ky5JfGD/dinner3.png",
@@ -128,7 +142,8 @@
           "des": "How we dream about our future",
           "price": 12.99,
           "id": 15,
-          "category":"dinner"
+          "category":"dinner",
+          "preparetion":"Meanwhile, in a small bowl, whisk together vinegar, marmalade, and mustard. Transfer pork to a cutting board and let rest 5 minutes. Discard any oil left in pan. Add mustard mixture to skillet and simmer until thickened, 2 to 3 minutes. Brush on pork. "
         },
         {
           "img": "https://i.ibb.co/MRbNBGD/dinner4.png",
@@ -136,7 +151,8 @@
           "des": "How we dream about our future",
           "price": 8.99,
           "id": 16,
-          "category":"dinner"
+          "category":"dinner",
+          "preparetion":"The dish originated in the United States,[citation needed] although its exact birthplace is still widely disputed. Cheese fries have been said to have grown in popularity in the United States after canned cheese products such as Cheez Whiz were introduced in 1952.[1] Don A. Jenkins is said to have invented the chili cheese fry variation, at the age of 16, in Tomball, Texas. Another report claims that a young fry cook named Austin Ruse was the first to serve this dish while working at Dairy Queen in St. Charles, Missouri.[2][3]"
         },
         {
           "img": "https://i.ibb.co/37gSLc6/dinner5.png",
@@ -144,7 +160,8 @@
           "des": "How we dream about our future",
           "price": 6.99,
           "id": 17,
-          "category":"dinner"
+          "category":"dinner",
+          "preparetion":"Garlic butter smothered salmon is a given. It’s possibly one of the most amazing, delicious ways to eat a juicy piece of salmon and gets cooked twice a week in this house. It’s been a while since we gave you salmon and it’s time.Normally you may opt for pan seared salmon for a guaranteed crisp exterior with a fork tender interior. Our baked salmon recipe delivers soft, juicy and tender salmon on the inside with charred crisp edges. A delicious restaurant-quality dinner!"
         },
         {
           "img": "https://i.ibb.co/VHSCXDp/dinner6.png",
@@ -152,7 +169,8 @@
           "des": "How we dream about our future",
           "price": 6.99,
           "id": 18,
-          "category":"dinner"
+          "category":"dinner",
+          "preparetion":"My last tip for a truly great Baked Chicken Breast is to pound it to even thickness, either with a rolling pin, meat mallet or even with your fist (very therapeutic). This has the  double effect of even cooking as well as tenderising the meat."
         }
       
 

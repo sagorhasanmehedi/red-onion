@@ -41,4 +41,7 @@
   .nav-login {
     display: none;
   }
+  .user-uid {
+    display: none;
+  }
 }

@@ -13,14 +13,11 @@ const Baner = () => {
     >
       <div className="">
         <h1 className="cover-heading">Best food waiting for your belly</h1>
-        <div className="input-parent">
-          <input
-            className="banner-input"
-            type="text"
-            name=""
-            id=""
-            placeholder="Search food items"
-          />
+        <div className="input_parent">
+          <div className="input_text">
+            <h6>Search food Items</h6>
+          </div>
+          <button>Serch</button>
         </div>
       </div>
     </div>

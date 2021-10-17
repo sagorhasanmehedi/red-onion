@@ -1,40 +1,65 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useHistory, useParams } from "react-router";
 import Usegithubapi from "../../Hook/UsegithubApi";
 import MealnameHeading from "../Shared/MealnameHeading/MealnameHeading";
 import mealdetail from "./Mealdetail.css";
+import UseAuth from "../../Hook/UseAuth";
+import Usedata from "../../Hook/Usedata";
+import Uselocalstroage from "../../Hook/UseLocalstroage";
 
 const Mealdetain = () => {
+  const [count, setcount] = useState(1);
+  const { localstroagePLUS, localstroageMINUS } = Uselocalstroage();
   const { id } = useParams();
-  const data = Usegithubapi();
-  const result = data.filter((meal) => meal.id == id);
-  // const { name, price, img } = result[0];
+  const data = UseAuth().githubapi;
 
+  // console.log(Usedata());
+
+  const result = data.find((meal) => meal.id == id);
   const history = useHistory();
   const goorderdetails = () => {
     history.push(`/orderdetail/${id}`);
+  };
+
+  // plus minus button
+  const plusbutton = () => {
+    setcount(count + 1);
+    localstroagePLUS(result.name);
+  };
+
+  const minusbutton = () => {
+    if (count <= 1) {
+      return;
+    } else {
+      localstroageMINUS(result.name);
+      setcount(count - 1);
+    }
   };
 
   return (
     <div>
       <MealnameHeading />
       <div className="parent-contain">
-        <div className="meal-detail ">
+        <div className="meal-detail">
           <div className="card-parent">
             <div className="detail-heading">
-              <h1>{result[0]?.name}</h1>
+              <h1>{result?.name}</h1>
             </div>
             <div className="detail-detail">
-              <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
-              <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
-              <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
-              <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+              <h6>{result?.preparetion}</h6>
             </div>
-            <div className="price">
-              <h1>${result[0]?.price}</h1>
-              <div className="plusminusbutton">
-                <button>-</button> <h4>1</h4>
-                <button>+</button>
+            <div className="price_button">
+              <div className="price">
+                <h1>${result?.price}</h1>
+              </div>
+              <div className="button_parent">
+                <button onClick={minusbutton} className="minus">
+                  -
+                </button>
+                <h3>{count}</h3>
+                <button onClick={plusbutton} className="plus">
+                  +
+                </button>
               </div>
             </div>
             <button onClick={goorderdetails} className="card-button">
@@ -43,7 +68,7 @@ const Mealdetain = () => {
           </div>
         </div>
         <div className="meal-img ">
-          <img src={result[0]?.img} alt="" />
+          <img src={result?.img} alt="" />
         </div>
       </div>
     </div>

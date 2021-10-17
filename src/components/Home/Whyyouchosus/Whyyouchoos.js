@@ -7,22 +7,23 @@ import bell from "../../../images/ICON/Group 1133.png";
 import bus2 from "../../../images/ICON/Group 245.png";
 import chef3 from "../../../images/Image/chef-cook-food-33614.png";
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Whyyouchoos = () => {
   return (
-    <div className=" chooseus-parent">
+    <div className=" chooseus-parent ">
       <div className="chef-title">
         <h2>Why you choose us</h2>
         <h5>
-          We have been in your shoes, have been successful, have learned <br />
-          mistakes (ours and others), and have a passion for the industry.
+          By offering many unique options to meatlovers, Nusr-Et quickly <br />
+          brought and extra flair to the steakhouse culture and <br /> still
+          serves as an indispensable location for its guests.
         </h5>
       </div>
 
-      <div className="row g-5">
-        <div className="col-md-6 col-lg-4">
-          <img className="card-imges" src={chef1} alt="" srcset="" />
+      <div className="row">
+        <div className="col-md-6 col-lg-4 card_parenTT">
+          <img className="card-imgeSS" src={chef1} alt="" srcset="" />
           <div className="C-body">
             <div className="chef-heading">
               <img src={bus} alt="" srcset="" />
@@ -33,32 +34,44 @@ const Whyyouchoos = () => {
               typically made either through a restaurant or grocer's <br />{" "}
               website or phone, or through a food ordering company. <br />
             </p>
-            <Link className="see-more-link">
+            <Link
+              to={{
+                pathname:
+                  "https://bfplny.com/food/?gclid=CjwKCAjw8KmLBhB8EiwAQbqNoJqYEWhMZXuYWim4EPKK4hpCW5gFLYZS4BWbseY-OGg_E-UsAbTJQRoC1vEQAvD_BwE",
+              }}
+              target="_blank"
+              className="see-more-link"
+            >
               see more <i class="fas fa-arrow-right chef-icon"></i>
             </Link>
           </div>
         </div>
-        <div className="col-md-6 col-lg-4">
-          <img className="card-imges" src={chef3} alt="" srcset="" />
+        <div className="col-md-6 col-lg-4 card_parenTT">
+          <img className="card-imgeSS" src={chef3} alt="" srcset="" />
           <div className="C-body">
             <div className="chef-heading">
               <img src={bell} alt="" srcset="" />
               <h4>A Good Auto Responder</h4>
             </div>
             <p>
-              The deal: First responders, nurses, doctors, military personnel,
+              The deal: First responders, nurses, doctors, military ,
               <br />
-              and anyone else who works in the healthcare field will get 50%{" "}
-              <br />
+              and anyone else who works the healthcare field get 50% <br />
               off their order as part of the chain's Essential Workers
             </p>
-            <Link className="see-more-link">
+            <Link
+              to={{
+                pathname: "https://www.cznburak.com/about",
+              }}
+              target="_blank"
+              className="see-more-link"
+            >
               see more <i class="fas fa-arrow-right chef-icon"></i>
             </Link>
           </div>
         </div>
-        <div className="col-md-6 col-lg-4">
-          <img className="card-imges" src={chef2} alt="" srcset="" />
+        <div className="col-md-6 col-lg-4 card_parenTT">
+          <img className="card-imgeSS" src={chef2} alt="" srcset="" />
           <div className="C-body">
             <div className="chef-heading">
               <img src={bus2} alt="" srcset="" />
@@ -69,7 +82,13 @@ const Whyyouchoos = () => {
               plenty of reasons to thank first responders <br /> for the work
               they do. That's driven home .
             </p>
-            <Link className="see-more-link">
+            <Link
+              to={{
+                pathname: "https://www.nusr-et.com.tr/en/home.aspx#about",
+              }}
+              target="_blank"
+              className="see-more-link"
+            >
               see more <i class="fas fa-arrow-right chef-icon"></i>
             </Link>
           </div>

@@ -1,11 +1,16 @@
 import React from "react";
 import { useHistory } from "react-router";
+import Uselocalstroage from "../../../Hook/UseLocalstroage";
 import "./Breakfast.css";
 
 const Breakfast = (props) => {
+  const { setlocalstroage } = Uselocalstroage();
+
   const { name, img, des, price, id } = props.meal;
   const history = useHistory();
+
   const godetails = (id) => {
+    setlocalstroage(name);
     history.push(`/mealdetail/${id}`);
   };
   return (

@@ -1,6 +1,6 @@
 .chooseus-parent {
   font-family: "Montserrat", sans-serif;
-  margin: 50px 50px 50px 100px;
+  margin: 50px 220px;
 }
 .chooseus-parent h2 {
   margin-top: 40px;
@@ -25,22 +25,29 @@
   margin: 150px 0 50px 0;
 }
 .C-body {
-  padding: 20px;
+  padding-top: 20px;
 }
-/* .card-imges {
+.card-imgeSS {
   width: 400px;
-} */
+}
 
 @media only screen and (max-width: 600px) {
   .chooseus-parent {
     margin: 0;
     padding: 10px;
   }
-  .card-imges {
-    width: 100%;
-  }
+
   .chef-title {
     margin-top: 50px;
     text-align: center;
+  }
+  .card_parenTT {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-imgeSS {
+    width: 100%;
   }
 }
